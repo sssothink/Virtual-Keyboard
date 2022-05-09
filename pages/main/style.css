@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(46, 46, 46);
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+.p__title{
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 36px;
+    color: rgb(128, 109, 255);
+}
+.p__text{
+    margin: 0 auto;
+    padding: 20px 0 2px 0;
+    font-size: 28px;
+    color: rgb(111, 108, 163);
+}
+
+.textarea{
+    width: 60%;
+    height: 150px;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    background-color: rgb(127, 127, 127);
+    color: rgb(222, 222, 222);
+    font-size: 24px;
+}
+.keyboard{
+    display: flex;
+    flex-wrap: wrap;
+    border:4px solid #fff;
+    border-radius: 10px;
+    width: 920px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px 2px 0 2px;
+}
+.k__key{
+    
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(233, 233, 233);
+    border-radius: 6px;
+    margin: 4px 3px;
+    background-color: rgb(22, 22, 22);
+    transition: all 0.2s;
+
+}
+.no__a{
+    font-size: 14px;
+}
+.active{
+    transform: scale(1.1);
+    border-radius: 25px;
+    background-color: rgb(77, 69, 186);
+    transition: all 0.2s;
+}
+#backspace{
+    width: 130px;
+    background-color: rgb(78, 71, 92);
+}
+#tabLeft{
+    width: 65px;
+    background-color: rgb(78, 71, 92);
+
+}
+#del{
+    width: 55px;
+    background-color: rgb(78, 71, 92);
+
+}
+#capsLock{
+    width: 130px;
+    background-color: rgb(78, 71, 92);
+
+}
+#enter{
+    width: 110px;
+    background-color: rgb(78, 71, 92);
+
+}
+#shiftLeft{
+    width: 130px;
+    background-color: rgb(78, 71, 92);
+
+}
+#shiftRight{
+    width: 110px;
+    background-color: rgb(78, 71, 92);
+
+}
+#up{
+    background-color: rgb(78, 71, 92);
+
+}
+#space{
+    width: 430px;
+}
+#right{
+    background-color: rgb(78, 71, 92);
+
+}
+#down{
+    background-color: rgb(78, 71, 92);
+
+}
+#left{
+    background-color: rgb(78, 71, 92);
+
+}
+#ctrlRight{
+    background-color: rgb(78, 71, 92);
+
+}
+#altRight{
+    background-color: rgb(78, 71, 92);
+
+}
+#altLeft{
+    background-color: rgb(78, 71, 92);
+
+}
+#win{
+    background-color: rgb(78, 71, 92);
+
+}
+#ctrlLeft{
+    background-color: rgb(78, 71, 92);
+
+}
+.clearfix{
+    clear: both;
+}
